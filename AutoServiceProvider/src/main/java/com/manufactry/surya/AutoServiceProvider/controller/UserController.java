@@ -29,7 +29,6 @@ public class UserController {
     public String login() {  
         return "login";  
     }  
-    }  
 //    // Login form with error  
 //    @RequestMapping("/login-error")  
 //    public String loginError(Model model) {  
