@@ -1,4 +1,4 @@
-package com.manufactry.surya.AutoServiceProvider;
+/*package com.manufactry.surya.AutoServiceProvider;
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -13,15 +13,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 		//http.authorizeRequests().anyRequest().authenticated().and().formLogin().loginPage("/login").permitAll();
 		
-//		 http  
-//         .authorizeRequests()  
-//         .antMatchers( "/public/**").permitAll()  
-//         .anyRequest().authenticated()  
-//             .and()  
-//         .formLogin()  
-//             .loginPage("/login")  
-//             .failureUrl("/login-error")  
-//             .permitAll(); 
+		 http  
+         .authorizeRequests()  
+         .antMatchers( "/public/**").permitAll()  
+         .anyRequest().authenticated()  
+             .and()  
+         .formLogin()  
+             .loginPage("/login")  
+             .failureUrl("/login-error")  
+             .permitAll(); 
 
 	}
 	
@@ -33,3 +33,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .roles("USER");  
     }  
 }
+*/

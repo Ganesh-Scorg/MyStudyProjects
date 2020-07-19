@@ -1,0 +1,15 @@
+CREATE TABLE loginuser (
+  id numeric(11,0)  Identity(1000, 1) NOT NULL,
+  name varchar(50) NOT NULL,
+  password varchar(50) NOT NULL, 
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE users (
+  id numeric(11,0)  Identity(1000, 1) NOT NULL,
+  name varchar(50) NOT NULL,
+  email varchar(50) NOT NULL, 
+  password varchar(50) NOT NULL, 
+  phone varchar(50) NOT NULL, 
+  PRIMARY KEY (id)
+);

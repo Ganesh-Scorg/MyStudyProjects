@@ -8,6 +8,10 @@ angular.module('demo.services', []).factory('UserService',
 				return $http.post(CONSTANTS.saveContact, newContact);
 			}
 			
+			service.userLogin = function(loginuser) {
+				return $http.post(CONSTANTS.userLogin, loginuser);
+			}
+			
 			service.registerUser = function() {
 				return $http.post(CONSTANTS.registerUser);
 			}

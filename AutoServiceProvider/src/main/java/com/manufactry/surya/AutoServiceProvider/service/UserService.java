@@ -44,7 +44,7 @@ public class UserService {
 		System.out.println("password:::" + newUsertDto.getPassword());
 		System.out.println("phone:::" + newUsertDto.getPhone());
 
-		//userRepo.save(newUsertDto);
+		userRepo.save(newUsertDto);
 	}
 
 }
