@@ -29,15 +29,16 @@ public class UserController {
     public String login() {  
         return "login";  
     }  
-    // Login form with error  
-    @RequestMapping("/login-error")  
-    public String loginError(Model model) {  
-        model.addAttribute("loginError", true);  
-        return "login.html";  
     }  
+//    // Login form with error  
+//    @RequestMapping("/login-error")  
+//    public String loginError(Model model) {  
+//        model.addAttribute("loginError", true);  
+//        return "login.html";  
+//    }  
     
     // Register form  
-    @RequestMapping("/register")  
+    @RequestMapping(value = "/register", method = RequestMethod.POST)  
     public String register() {  
         return "register";  
     } 
@@ -54,4 +55,7 @@ public class UserController {
 		userService.saveNewContact(newUsertDto);
     }
 	
+    
+    ///
+    
 }

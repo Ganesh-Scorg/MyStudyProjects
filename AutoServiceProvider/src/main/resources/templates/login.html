@@ -13,8 +13,7 @@
         <label for="password">Password</label>  
         <input type="password" id="password" name="password" />  
         <input id="submit" type="submit" value="Log in" />  
-    </form>  
-    <p th:if="${loginError}" class="error">Wrong user or password</p>  
+    </form>   
 </div>  
 <div id="Register">
  <form th:action="@{/register}" method="post">  
