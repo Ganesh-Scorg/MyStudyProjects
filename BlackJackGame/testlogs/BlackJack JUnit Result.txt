@@ -1,0 +1,123 @@
+Enter Game Value (Integer amount) of Player No. 1, with which he can play this round
+50
+Payer: Ganesh, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 2, with which he can play this round
+50
+Payer: Rohit, wanted to play game with amount 50
+Game is started now and dealer is ditributing cards to each player
+Player Ganesh, got card with value=9
+Player Rohit, got card with value=6
+Dealer Cards: [7], CardTotal: 7, Status:PLAYING
+Player Ganesh, got card with value=7
+Name: Ganesh, Cards: [9, 7], CardTotal: 16, Status:PLAYING, Balance:100
+Player Rohit, got card with value=2
+Name: Rohit, Cards: [6, 2], CardTotal: 8, Status:PLAYING, Balance:100
+Number of Players Alive in the game = 2
+Player: Ganesh is at 16 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ganesh, got card with value=5
+Ohh Congrats Payer: Ganesh, you are a BlackJack
+Name: Ganesh, Cards: [9, 7, 5], CardTotal: 21, Status:BLACKJACK, Balance:175
+Player: Rohit is at 8 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Rohit, got card with value=4
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Rohit, got card with value=6
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Rohit, don't want to hit the card and stays
+Name: Rohit, Cards: [6, 2, 4, 6], CardTotal: 18, Status:PLAYING, Balance:100
+Dealer can show the hidden card now..
+Dealer Cards: [7, 3], CardTotal: 10, Status:PLAYING
+Dealer, got card with value=8
+Dealer Cards: [7, 3, 8], CardTotal: 18, Status:PLAYING
+Number of Players Alive in the game = 1
+Name: Ganesh, Cards: [9, 7, 5], CardTotal: 21, Status:BLACKJACK, Balance:175
+Player: Rohit is at 18 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Rohit, got card with value=10
+Ohh No: Rohit, you just BUST over 21 now
+Dealer is stopping the game now = 0
+Name: Rohit, Cards: [6, 2, 4, 6, 10], CardTotal: 28, Status:BUST, Balance:50
+Dealer Cards: [7, 3, 8], CardTotal: 18, Status:NOTPLAYING
+Game is Over
+Overall Status is as below:
+Dealer Cards: [7, 3, 8], CardTotal: 18, Status:NOTPLAYING
+Name: Ganesh, Cards: [9, 7, 5], CardTotal: 21, Status:BLACKJACK, Balance:175
+Name: Rohit, Cards: [6, 2, 4, 6, 10], CardTotal: 28, Status:BUST, Balance:50
+Current state of Card Deck (key=CardValue and Value=NumberOfCards)
+{2=3, 3=3, 4=3, 5=3, 6=2, 7=2, 8=3, 9=3, 10=15, 11=4}
+Do you want to play again? Enter Yes/No
+yes
+Enter Game Value (Integer amount) of Player No. 1, with which he can play this round
+50
+Payer: Ganesh, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 2, with which he can play this round
+50
+Payer: Rohit, wanted to play game with amount 50
+Game is started now and dealer is ditributing cards to each player
+Dealer, got card with value=5
+Player Ganesh, got card with value=8
+Player Rohit, got card with value=4
+Dealer Cards: [5], CardTotal: 5, Status:PLAYING
+Dealer, got card with value=3
+Player Ganesh, got card with value=4
+Name: Ganesh, Cards: [8, 4], CardTotal: 12, Status:PLAYING, Balance:175
+Player Rohit, got card with value=6
+Name: Rohit, Cards: [4, 6], CardTotal: 10, Status:PLAYING, Balance:50
+Number of Players Alive in the game = 2
+Player: Ganesh is at 12 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ganesh, got card with value=6
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Ganesh, don't want to hit the card and stays
+Name: Ganesh, Cards: [8, 4, 6], CardTotal: 18, Status:PLAYING, Balance:175
+Player: Rohit is at 10 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Rohit, got card with value=5
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Rohit, got card with value=2
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Rohit, don't want to hit the card and stays
+Name: Rohit, Cards: [4, 6, 5, 2], CardTotal: 17, Status:PLAYING, Balance:50
+Dealer can show the hidden card now..
+Dealer Cards: [5, 3], CardTotal: 8, Status:PLAYING
+Dealer, got card with value=10
+Dealer Cards: [5, 3, 10], CardTotal: 18, Status:PLAYING
+Number of Players Alive in the game = 2
+Player: Ganesh is at 18 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Ganesh, don't want to hit the card and stays
+Name: Ganesh, Cards: [8, 4, 6], CardTotal: 18, Status:PLAYING, Balance:175
+Player: Rohit is at 17 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Rohit, got card with value=10
+Ohh No: Rohit, you just BUST over 21 now
+Name: Rohit, Cards: [4, 6, 5, 2, 10], CardTotal: 27, Status:BUST, Balance:0
+Dealer Cards: [5, 3, 10], CardTotal: 18, Status:PLAYING
+Dealer is eligible to take decision...
+Press 1 to hit or 2 for stay
+1
+Dealer, got card with value=5
+Ohh No: Dealer, you just BUST over 21 now
+Dealer Cards: [5, 3, 10, 5], CardTotal: 23, Status:BUST
+Dealer is BUST 21, means all playing player won the game
+Overall Status is as below:
+Dealer Cards: [5, 3, 10, 5], CardTotal: 23, Status:BUST
+Name: Ganesh, Cards: [8, 4, 6], CardTotal: 18, Status:WON, Balance:250
+Name: Rohit, Cards: [4, 6, 5, 2, 10], CardTotal: 27, Status:BUST, Balance:0
+Current state of Card Deck (key=CardValue and Value=NumberOfCards)
+{2=2, 3=2, 4=1, 7=2, 8=2, 9=3, 10=13, 11=4}
+Do you want to play again? Enter Yes/No
+No

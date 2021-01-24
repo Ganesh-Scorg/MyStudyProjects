@@ -1,0 +1,150 @@
+************* Welcome to Casino Game BlackJack *****************
+How many player wanted to play:
+3
+Enter ID (Integer) of Player No. 1
+1
+Enter Name (String) of Player No. 1
+Reshma
+Enter ID (Integer) of Player No. 2
+2
+Enter Name (String) of Player No. 2
+Vishal
+Enter ID (Integer) of Player No. 3
+3
+Enter Name (String) of Player No. 3
+Snehal
+Enter Game Value (Integer amount) of Player No. 1, with which he can play this round
+50
+Payer: Reshma, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 2, with which he can play this round
+50
+Payer: Vishal, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 3, with which he can play this round
+50
+Payer: Snehal, wanted to play game with amount 50
+Game is started now and dealer is ditributing cards to each player
+Player Reshma, got card with value=2
+Player Vishal, got card with value=5
+Player Snehal, got card with value=5
+Dealer Cards: [6], CardTotal: 6, Status:PLAYING
+Player Reshma, got card with value=2
+Name: Reshma, Cards: [2, 2], CardTotal: 4, Status:PLAYING, Balance:100
+Player Vishal, got card with value=4
+Name: Vishal, Cards: [5, 4], CardTotal: 9, Status:PLAYING, Balance:100
+Player Snehal, got card with value=9
+Name: Snehal, Cards: [5, 9], CardTotal: 14, Status:PLAYING, Balance:100
+Number of Players Alive in the game = 3
+Player: Reshma is at 4 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Reshma, got card with value=6
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Reshma, got card with value=4
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Reshma, got card with value=5
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Reshma, don't want to hit the card and stays
+Name: Reshma, Cards: [2, 2, 6, 4, 5], CardTotal: 19, Status:PLAYING, Balance:100
+Player: Vishal is at 9 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Vishal, got card with value=2
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Vishal, got card with value=5
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Vishal, got card with value=2
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Vishal, don't want to hit the card and stays
+Name: Vishal, Cards: [5, 4, 2, 5, 2], CardTotal: 18, Status:PLAYING, Balance:100
+Player: Snehal is at 14 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Snehal, got card with value=8
+Ohh No: Snehal, you just BUST over 21 now
+Name: Snehal, Cards: [5, 9, 8], CardTotal: 22, Status:BUST, Balance:50
+Dealer can show the hidden card now..
+Dealer Cards: [6, 9], CardTotal: 15, Status:PLAYING
+Dealer, got card with value=3
+Dealer Cards: [6, 9, 3], CardTotal: 18, Status:PLAYING
+Number of Players Alive in the game = 2
+Player: Reshma is at 19 and playing his turn...
+Ohh Congrats Reshma, you have already won the game
+Name: Reshma, Cards: [2, 2, 6, 4, 5], CardTotal: 19, Status:WON, Balance:175
+Player: Vishal is at 18 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Vishal, got card with value=10
+Ohh No: Vishal, you just BUST over 21 now
+Dealer is stopping the game now = 0
+Name: Vishal, Cards: [5, 4, 2, 5, 2, 10], CardTotal: 28, Status:BUST, Balance:50
+Name: Snehal, Cards: [5, 9, 8], CardTotal: 22, Status:BUST, Balance:50
+Dealer Cards: [6, 9, 3], CardTotal: 18, Status:NOTPLAYING
+Game is Over
+Overall Status is as below:
+Dealer Cards: [6, 9, 3], CardTotal: 18, Status:NOTPLAYING
+Name: Reshma, Cards: [2, 2, 6, 4, 5], CardTotal: 19, Status:WON, Balance:175
+Name: Vishal, Cards: [5, 4, 2, 5, 2, 10], CardTotal: 28, Status:BUST, Balance:50
+Name: Snehal, Cards: [5, 9, 8], CardTotal: 22, Status:BUST, Balance:50
+Do you want to play again? Enter Yes/No
+yes
+Enter Game Value (Integer amount) of Player No. 1, with which he can play this round
+50
+Payer: Reshma, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 2, with which he can play this round
+50
+Payer: Vishal, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 3, with which he can play this round
+50
+Payer: Snehal, wanted to play game with amount 50
+Game is started now and dealer is ditributing cards to each player
+Dealer, got card with value=7
+Player Reshma, got card with value=9
+Player Vishal, got card with value=7
+Player Snehal, got card with value=8
+Dealer Cards: [7], CardTotal: 7, Status:PLAYING
+Dealer, got card with value=9
+Player Reshma, got card with value=7
+Name: Reshma, Cards: [9, 7], CardTotal: 16, Status:PLAYING, Balance:175
+Player Vishal, got card with value=3
+Name: Vishal, Cards: [7, 3], CardTotal: 10, Status:PLAYING, Balance:50
+Player Snehal, got card with value=3
+Name: Snehal, Cards: [8, 3], CardTotal: 11, Status:PLAYING, Balance:50
+Number of Players Alive in the game = 3
+Player: Reshma is at 16 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Reshma, don't want to hit the card and stays
+Name: Reshma, Cards: [9, 7], CardTotal: 16, Status:PLAYING, Balance:175
+Player: Vishal is at 10 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Vishal, got card with value=10
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Vishal, don't want to hit the card and stays
+Name: Vishal, Cards: [7, 3, 10], CardTotal: 20, Status:PLAYING, Balance:50
+Player: Snehal is at 11 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Snehal, got card with value=6
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Snehal, don't want to hit the card and stays
+Name: Snehal, Cards: [8, 3, 6], CardTotal: 17, Status:PLAYING, Balance:50
+Dealer can show the hidden card now..
+Dealer Cards: [7, 9], CardTotal: 16, Status:PLAYING
+Dealer, got card with value=8
+Ohh No: Dealer, you just BUST over 21 now
+Dealer Cards: [7, 9, 8], CardTotal: 24, Status:BUST
+Overall Status is as below:
+Dealer Cards: [7, 9, 8], CardTotal: 24, Status:BUST
+Name: Reshma, Cards: [9, 7], CardTotal: 16, Status:PLAYING, Balance:175
+Name: Vishal, Cards: [7, 3, 10], CardTotal: 20, Status:PLAYING, Balance:50
+Name: Snehal, Cards: [8, 3, 6], CardTotal: 17, Status:PLAYING, Balance:50
+Do you want to play again? Enter Yes/No

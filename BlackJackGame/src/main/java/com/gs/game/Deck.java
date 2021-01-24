@@ -24,10 +24,15 @@ public class Deck {
 		carddeck.put(10, 16); //4 Tens, 4 Jack, 4 Queen and 4 King
 	}
 	
+	public static HashMap<Integer,Integer> getCardDeck()
+	{
+		return carddeck;
+	}
+	
 	public static int drawcard()
 	{
 		Random random = new Random();
-		int random_value = random.nextInt(9)+2; //it will return card from 2 to 11
+		int random_value = random.nextInt(10)+2; //it will return card from 2 to 11
 		
 		//Recheck the card if not exist in deck
 		while(!carddeck.containsKey(random_value))

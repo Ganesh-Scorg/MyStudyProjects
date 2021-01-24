@@ -1,0 +1,183 @@
+************* Welcome to Casino Game BlackJack *****************
+How many player wanted to play:
+3
+Enter ID (Integer) of Player No. 1
+1
+Enter Name (String) of Player No. 1
+Ram
+Enter ID (Integer) of Player No. 2
+2
+Enter Name (String) of Player No. 2
+Sham
+Enter ID (Integer) of Player No. 3
+3
+Enter Name (String) of Player No. 3
+Bam
+Enter Game Value (Integer amount) of Player No. 1, with which he can play this round
+50
+Payer: Ram, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 2, with which he can play this round
+50
+Payer: Sham, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 3, with which he can play this round
+50
+Payer: Bam, wanted to play game with amount 50
+Game is started now and dealer is ditributing cards to each player
+Player Ram, got card with value=3
+Player Sham, got card with value=6
+Player Bam, got card with value=6
+Dealer Cards: [7], CardTotal: 7, Status:PLAYING
+Player Ram, got card with value=2
+Name: Ram, Cards: [3, 2], CardTotal: 5, Status:PLAYING, Balance:100
+Player Sham, got card with value=4
+Name: Sham, Cards: [6, 4], CardTotal: 10, Status:PLAYING, Balance:100
+Player Bam, got card with value=2
+Name: Bam, Cards: [6, 2], CardTotal: 8, Status:PLAYING, Balance:100
+Number of Players Alive in the game = 3
+Player: Ram is at 5 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ram, got card with value=4
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ram, got card with value=4
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Ram, don't want to hit the card and stays
+Name: Ram, Cards: [3, 2, 4, 4], CardTotal: 13, Status:PLAYING, Balance:100
+Player: Sham is at 10 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Sham, got card with value=6
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Sham, got card with value=4
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Sham, don't want to hit the card and stays
+Name: Sham, Cards: [6, 4, 6, 4], CardTotal: 20, Status:PLAYING, Balance:100
+Player: Bam is at 8 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Bam, got card with value=10
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Bam, got card with value=9
+Ohh No: Bam, you just BUST over 21 now
+Name: Bam, Cards: [6, 2, 10, 9], CardTotal: 27, Status:BUST, Balance:50
+Dealer can show the hidden card now..
+Dealer Cards: [7, 3], CardTotal: 10, Status:PLAYING
+Dealer, got card with value=2
+Dealer Cards: [7, 3, 2], CardTotal: 12, Status:PLAYING
+Number of Players Alive in the game = 2
+Player: Ram is at 13 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ram, got card with value=3
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ram, got card with value=3
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Ram, don't want to hit the card and stays
+Name: Ram, Cards: [3, 2, 4, 4, 3, 3], CardTotal: 19, Status:PLAYING, Balance:100
+Player: Sham is at 20 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Sham, don't want to hit the card and stays
+Name: Sham, Cards: [6, 4, 6, 4], CardTotal: 20, Status:PLAYING, Balance:100
+Name: Bam, Cards: [6, 2, 10, 9], CardTotal: 27, Status:BUST, Balance:50
+Dealer Cards: [7, 3, 2], CardTotal: 12, Status:PLAYING
+Dealer, got card with value=5
+Dealer Cards: [7, 3, 2, 5], CardTotal: 17, Status:PLAYING
+Number of Players Alive in the game = 2
+Player: Ram is at 19 and playing his turn...
+Ohh Congrats Ram, you have already won the game
+Name: Ram, Cards: [3, 2, 4, 4, 3, 3], CardTotal: 19, Status:WON, Balance:175
+Player: Sham is at 20 and playing his turn...
+Ohh Congrats Sham, you have already won the game
+Dealer is stopping the game now = 0
+Name: Sham, Cards: [6, 4, 6, 4], CardTotal: 20, Status:WON, Balance:175
+Name: Bam, Cards: [6, 2, 10, 9], CardTotal: 27, Status:BUST, Balance:50
+Dealer Cards: [7, 3, 2, 5], CardTotal: 17, Status:NOTPLAYING
+Game is Over
+Overall Status is as below:
+Dealer Cards: [7, 3, 2, 5], CardTotal: 17, Status:NOTPLAYING
+Name: Ram, Cards: [3, 2, 4, 4, 3, 3], CardTotal: 19, Status:WON, Balance:175
+Name: Sham, Cards: [6, 4, 6, 4], CardTotal: 20, Status:WON, Balance:175
+Name: Bam, Cards: [6, 2, 10, 9], CardTotal: 27, Status:BUST, Balance:50
+Do you want to play again? Enter Yes/No
+yes
+Enter Game Value (Integer amount) of Player No. 1, with which he can play this round
+50
+Payer: Ram, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 2, with which he can play this round
+50
+Payer: Sham, wanted to play game with amount 50
+Enter Game Value (Integer amount) of Player No. 3, with which he can play this round
+50
+Payer: Bam, wanted to play game with amount 50
+Game is started now and dealer is ditributing cards to each player
+Dealer, got card with value=8
+Player Ram, got card with value=7
+Player Sham, got card with value=2
+Player Bam, got card with value=9
+Dealer Cards: [8], CardTotal: 8, Status:PLAYING
+Dealer, got card with value=10
+Player Ram, got card with value=9
+Name: Ram, Cards: [7, 9], CardTotal: 16, Status:PLAYING, Balance:175
+Player Sham, got card with value=5
+Name: Sham, Cards: [2, 5], CardTotal: 7, Status:PLAYING, Balance:175
+Player Bam, got card with value=9
+Name: Bam, Cards: [9, 9], CardTotal: 18, Status:PLAYING, Balance:50
+Number of Players Alive in the game = 3
+Player: Ram is at 16 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Ram, got card with value=5
+Ohh Congrats Payer: Ram, you are a BlackJack
+Name: Ram, Cards: [7, 9, 5], CardTotal: 21, Status:BLACKJACK, Balance:250
+Player: Sham is at 7 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Sham, got card with value=10
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Sham, don't want to hit the card and stays
+Name: Sham, Cards: [2, 5, 10], CardTotal: 17, Status:PLAYING, Balance:175
+Player: Bam is at 18 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+2
+Payer : Bam, don't want to hit the card and stays
+Name: Bam, Cards: [9, 9], CardTotal: 18, Status:PLAYING, Balance:50
+Dealer can show the hidden card now..
+Dealer Cards: [8, 10], CardTotal: 18, Status:PLAYING
+Dealer is eligible to take decision...
+Press 1 to hit or 2 for stay
+2
+Dealer don't want to hit the card and stays
+Dealer Cards: [8, 10], CardTotal: 18, Status:PLAYING
+Number of Players Alive in the game = 2
+Name: Ram, Cards: [7, 9, 5], CardTotal: 21, Status:BLACKJACK, Balance:250
+Player: Sham is at 17 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Sham, got card with value=8
+Ohh No: Sham, you just BUST over 21 now
+Name: Sham, Cards: [2, 5, 10, 8], CardTotal: 25, Status:BUST, Balance:125
+Player: Bam is at 18 and playing his turn...
+Wanna try? Press 1 to hit or 2 for stay
+1
+Player Bam, got card with value=8
+Ohh No: Bam, you just BUST over 21 now
+Dealer is stopping the game now = 0
+Name: Bam, Cards: [9, 9, 8], CardTotal: 26, Status:BUST, Balance:0
+Dealer Cards: [8, 10], CardTotal: 18, Status:NOTPLAYING
+Game is Over
+Overall Status is as below:
+Dealer Cards: [8, 10], CardTotal: 18, Status:NOTPLAYING
+Name: Ram, Cards: [7, 9, 5], CardTotal: 21, Status:BLACKJACK, Balance:250
+Name: Sham, Cards: [2, 5, 10, 8], CardTotal: 25, Status:BUST, Balance:125
+Name: Bam, Cards: [9, 9, 8], CardTotal: 26, Status:BUST, Balance:0
+Do you want to play again? Enter Yes/No
+yes
