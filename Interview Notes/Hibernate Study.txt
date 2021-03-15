@@ -1,0 +1,8 @@
+Hibernate Study:
+
+https://docs.jboss.org/hibernate/orm/3.5/javadocs/org/hibernate/Session.html
+https://www.tutorialspoint.com/hibernate/hibernate_sessions.htm
+https://www.tutorialspoint.com/hibernate/hibernate_criteria_queries.htm
+
+rusal mandel
+Ankuta Antony

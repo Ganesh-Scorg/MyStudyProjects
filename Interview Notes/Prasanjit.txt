@@ -1,0 +1,56 @@
+@Operation
+@PostMapping
+Validator
+BindingResult
+@ControllerAdvice - ResponseEntityException
+@ExceptionHandler - Build ResponseEntity (ErrorResponse)
+
+@Slf4J -> Log
+
+JPARepository -> findByXXXX where XXX is column name
+@Query in JPARepository interface for join and all
+nativeQuery = true
+
+@Builder, @Data, @NoArgConstructor, @AllArgConstrcutor from lombok Jar
+
+GateWay and Filters, Registry, Spring Cloud
+prefilter, dofilter
+----
+Spring Batch
+---
+google formatter, goJF 
+flywaydb  - db.migrator
+
+----
+Spring Cloud Valt Hash Corp
+
+sleuth
+sonar Qube
+jococo test report
+--
+Actuator
+Profile
+
+---
+Opus discussion
+
+1. Shashikant Tikade HR
+2. Kushboo and Devnyani
+3. 
+
+25
+
+1. NCR ()
+2. FIS 
+3. Cartronic
+4. Fiserv
+
+reporting to Mukesh Joshi
+
+C/C++ and 
+Java Switch for
+
+Cloud Certification
+NCR
+ 
+

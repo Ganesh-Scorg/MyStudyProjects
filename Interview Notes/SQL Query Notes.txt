@@ -1,0 +1,118 @@
+CREATE DATABASE if NOT EXISTS spring_mvc;
+
+create database spring_mvc
+
+USE spring_mvc;
+
+
+CREATE TABLE "users" ( "username" VARCHAR(45) NOT NULL,
+  "password" VARCHAR(45) NULL,
+  "firstname" VARCHAR(45) NOT NULL,
+  "lastname" VARCHAR(45) NULL,
+  "email" VARCHAR(45) NULL,
+  "address" VARCHAR(45) NULL,
+  "phone" INT NULL,
+  PRIMARY KEY ("username"));
+
+  CREATE DATABASE ORG;
+//SHOW DATABASES;
+USE ORG;
+
+CREATE TABLE Worker (WORKER_ID INT NOT NULL PRIMARY KEY, FIRST_NAME CHAR(25), LAST_NAME CHAR(25), SALARY INT, JOINING_DATE DATETIME, DEPARTMENT CHAR(25));
+
+INSERT INTO Worker 
+	(WORKER_ID, FIRST_NAME, LAST_NAME, SALARY, JOINING_DATE, DEPARTMENT) VALUES
+		
+				(002, 'Niharika', 'Verma', 80000, GETDATE(), 'Admin'),
+		(003, 'Vishal', 'Singhal', 300000, GETDATE(), 'HR'),
+		(004, 'Amitabh', 'Singh', 500000, GETDATE(), 'Admin'),
+		(005, 'Vivek', 'Bhati', 500000, GETDATE(), 'Admin'),
+		(006, 'Vipul', 'Diwan', 200000, GETDATE(), 'Account'),
+		(007, 'Satish', 'Kumar', 75000, GETDATE(), 'Account'),
+		(008, 'Geetika', 'Chauhan', 90000, GETDATE(), 'Admin');
+
+		(001, 'Monika', 'Arora', 100000, GETDATE(), 'HR');
+
+CREATE TABLE Bonus (
+	WORKER_REF_ID INT,
+	BONUS_AMOUNT INT,
+	BONUS_DATE DATETIME,
+	FOREIGN KEY (WORKER_REF_ID)
+		REFERENCES Worker(WORKER_ID)
+        ON DELETE CASCADE
+);
+
+INSERT INTO Bonus 
+	(WORKER_REF_ID, BONUS_AMOUNT, BONUS_DATE) VALUES
+		(001, 5000, GETDATE()),
+		(002, 3000, GETDATE()),
+		(003, 4000, GETDATE()),
+		(001, 4500, GETDATE()),
+		(002, 3500, GETDATE());
+
+
+		CREATE TABLE Title (
+	WORKER_REF_ID INT,
+	WORKER_TITLE CHAR(25),
+	AFFECTED_FROM DATETIME,
+	FOREIGN KEY (WORKER_REF_ID)
+		REFERENCES Worker(WORKER_ID)
+        ON DELETE CASCADE
+);
+
+INSERT INTO Title 
+	(WORKER_REF_ID, WORKER_TITLE, AFFECTED_FROM) VALUES
+ (001, 'Manager', GETDATE()),
+ (002, 'Executive', GETDATE()),
+ (008, 'Executive', GETDATE()),
+ (005, 'Manager', GETDATE()),
+ (004, 'Asst. Manager', GETDATE()),
+ (007, 'Executive', GETDATE()),
+ (006, 'Lead', GETDATE()),
+ (003, 'Lead', GETDATE());
+
+ Select CHARINDEX('a',FIRST_NAME) from Worker where FIRST_NAME = 'Amitabh';
+
+ Select distinct Len(DEPARTMENT) from Worker;
+
+ Select REPLACE(FIRST_NAME,'a','A') from Worker;
+ Select CONCAT(FIRST_NAME, ' ', LAST_NAME) AS 'COMPLETE_NAME' from Worker;
+
+ select * from worker order by first_name asc;
+
+ Select * from Worker where year(JOINING_DATE) = 2014 and month(JOINING_DATE) = 2;
+
+ SELECT CONCAT(FIRST_NAME, ' ', LAST_NAME) As Worker_Name, Salary
+FROM worker 
+WHERE Salary BETWEEN 50000 AND 100000;
+ 
+ SELECT * FROM Worker WHERE WORKER_ID%2 <> 0;
+ 
+ SELECT * INTO WorkerClone FROM Worker;
+
+ select * from WorkerClone intersect  SELECT * FROM Worker
+
+ SELECT TOP 10 * FROM Worker ORDER BY Salary DESC;
+
+ select TOP 1 Salary from (SELECT TOP 5 * FROM Worker ORDER BY Salary DESC) as gggg ORDER BY Salary asc;
+
+ SELECT Salary FROM (SELECT DISTINCT TOP 5 Salary FROM Worker ORDER BY Salary DESC)
+
+ SELECT TOP 1 salary FROM ( SELECT DISTINCT TOP 3 salary FROM Worker ORDER BY salary DESC ) ORDER BY salary
+
+ SELECT * FROM Worker WHERE WORKER_ID <=5
+UNION
+SELECT * FROM (SELECT * FROM Worker W order by W.WORKER_ID DESC) AS W1 WHERE W1.WORKER_ID <=5;
+ 
+ select * from (select TOP 5 * from worker order by WORKER_ID desc) as w1 order by WORKER_ID asc
+
+ SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) from worker b WHERE a.Salary >= b.Salary) order by a.Salary desc;
+
+ create table B (ID INT)
+
+ insert into B values(4)
+ select * from A
+ 
+ select ISNULL(A.ID,'NO') as AID, ISNULL(B.ID,'NO') as BID from A FULL OUTER JOIN B on A.ID=B.ID
+
+ select IIF(ISNULL(A.ID,0)=0,'NO','YES') as PresentINA, IIF(ISNULL(B.ID,0)=0,'NO','YES') as PresentINB from A FULL OUTER JOIN B on A.ID=B.ID

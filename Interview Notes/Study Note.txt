@@ -1,0 +1,160 @@
+https://corejava25hours.com/2018/03/23/java-7-vs-java-8-vs-java-9-vs-java-10/
+https://dzone.com/articles/a-guide-to-java-versions-and-features
+
+https://www.javatpoint.com/enum-in-java
+https://www.w3schools.com/java/java_regex.asp
+
+Wissen Interview questions:
+
+1. Design web crowler function. Give the API visit (url) which returns the list of url the page contains.
+
+2. Table has columns Person, Hobbies, find people who don't have hobby as reading.
+
+Select Name, Hobby from Person where Hobby<>'reading'
+
+3. Table A Table B
+
+ID		ID
+1.		2.
+2.		3.
+3.		4.
+
+
+Output:
+
+ID Present in A   Present in B
+1.		yes			No
+2.		yes			yes
+3.		yes			yes
+4.		No			yes
+
+write query for this output.
+
+ select IIF(ISNULL(A.ID,0)=0,'NO','YES') as PresentINA, IIF(ISNULL(B.ID,0)=0,'NO','YES') as PresentINB from A FULL OUTER JOIN B on A.ID=B.ID
+
+4. can constructor be synchronized?
+
+5. How would you handle object creation on event of an exception during constructor execution?
+
+6. Class A exhibit Singleton property, class B extends A, class C extends B. How would you ensure the subclasses also inherit the same property?
+Since Singleton class constructor is private, we can't inherit it but if you want then mark it as protected.
+https://stackoverflow.com/questions/23577991/how-to-extend-a-singleton-class
+
+
+7. Class A
+	{
+		A()
+		{
+			//some code
+			
+			J NI
+		}
+	}
+	
+	Your task to ensure that J NI invokation doesn't get corrupted due to multiple object being created at the same time.
+	Ans: JVM will allow only one thread to call contsructor at a time so there is no problem occure. still if you want we can add synchronize block there.
+	
+8. You have 2 large datasets of the same nature.
+
+A = 1,4,5...
+B = 5,2,9,1000,222
+
+How would you conput rest set A-B? further if the set are sorted, what would your approach be?
+for Asymetric diff -> test2.removeAll(test1);
+
+//for Symetric diff -> union minus intersection equals symmetric-difference
+Set<Type> symmetricDiff = new HashSet<Type>(set1);
+symmetricDiff.addAll(set2);
+// symmetricDiff now contains the union
+Set<Type> tmp = new HashSet<Type>(set1);
+tmp.retainAll(set2);
+// tmp now contains the intersection
+symmetricDiff.removeAll(tmp);
+
+
+9. All collection including concurrenthashmap, concurrency package e.g seamphore, count down latch , producer consumer problem.
+CountDouwnLatch https://www.youtube.com/watch?v=59oQfkdn5mA
+Simaphore https://www.youtube.com/watch?v=xdp_6euCEP8
+https://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/
+https://howtodoinjava.com/java/multi-threading/producer-consumer-problem-using-blockingqueue/
+
+10. Data Structure madhe linked list and tree must - revisitedjava website
+11. object oriented design question like design class level diagram for eg design bookmyshow, ola app...leetcode war ahe hai questions
+12. Most important : Design pattern at least 5 to 6 - Howtodoinjava and Geeksforgeeks website var best ahe
+https://www.geeksforgeeks.org/singleton-design-pattern/
+https://www.youtube.com/watch?v=pt1IbV1aSZ4
+https://www.youtube.com/watch?v=nZ76x13Nm8Q&list=PLsyeobzWxl7r2ZX1fl-7CKnayxHJA_1ol&index=10
+
+13. Design ola, Design bookmyshow, Object oriented design with database schema plus class level design.
+
+Q14. Given a website URL and a function which parses the webpage of current url and returns a list of all urls on that page, write a function to crawl all the links starting from root link, one by one.
+
+
+Q15. How concurrentHashMap works?
+
+Q16. What is deadlock in db? Examples
+https://www.geeksforgeeks.org/deadlock-in-java-multithreading/
+
+Q17. One simple sql query writing question
+
+Q18 type of breaking singleton
+https://www.geeksforgeeks.org/prevent-singleton-pattern-reflection-serialization-cloning/
+https://www.geeksforgeeks.org/different-ways-create-objects-java/
+
+Q19. Executer Services and Thread Pool
+https://www.youtube.com/watch?v=sIkG0X4fqs4
+
+@20. Voliatile Vs Automic
+https://www.youtube.com/watch?v=WH5UvQJizH0
+
+@21. Java Memory Management
+https://www.geeksforgeeks.org/java-memory-management/
+@22. Hoew to make our class Mutable?
+@23. chind->method1->supper->method1->parent.method2 . both methods are overriden.
+@24. stream API for sum and reduce.
+
+@25. How to read huge file and store into database table without facing memory issue.
+-> use Scanner or LineIterator lineIterator = FileUtils.lineIterator(file)
+
+@26. Use case where new String() instantiation is mandatory and which approach is recommended.
+
+@27. what is load() and get() methods in hibernet.
+
+@28. Custom implementation of TreadPool
+https://howtodoinjava.com/java/multi-threading/java-thread-pool-executor-example/
+
+@29. Can we create private class?
+We can not declare top level class as private. Java allows only public and default modifier for top level classes in java. Inner classes can be private.
+
+@30. hashcode and equals method contract in java
+https://howtodoinjava.com/java/basics/java-hashcode-equals-methods/
+
+@31. Custom Implementation of CountDouwnLatch
+https://www.javamadesoeasy.com/2015/03/implementation-of-customown_31.html
+
+@32 Custom implementation of CyclicBarrier
+https://www.javamadesoeasy.com/2015/03/implementation-of-customown_39.html
+
+@33 Create Immutable class in Java
+https://www.journaldev.com/129/how-to-create-immutable-class-in-java
+
+@34 Fail Safe iterator in deep?
+
+@35. how to read large record of StockOrder from file and find Company wise number of transaction in a day, also find price change for a given time.
+
+@36. Create only single object on class A and Class B extends A. second attempt should throw an exception
+
+@37. select IIF(ISNULL(T1.ID,'X')='X',T2.ID,T1.ID) Col1, IIF(ISNULL(T1.ID,'X')<>'X' AND ISNULL(T2.ID,'X')<>'X','2','1') from T1 FULL OUTER JOIN T2 on T1.ID = T2.ID
+
+@38. How to achieve dependency injection without Spring?
+https://www.javacodegeeks.com/2010/12/dependency-injection-manual-way.html
+
+@39. JDK Vs JRE Vs JVM
+https://www.guru99.com/difference-between-jdk-jre-jvm.html#:~:text=JDK%20is%20a%20software%20development%20kit%20whereas%20JRE%20is%20a,JVM%20is%20Java%20Virtual%20Machine.
+
+@40. Java Enum
+https://www.journaldev.com/716/java-enum
+
+
+@41. Opps tricky questions
+https://www.java67.com/2015/12/top-30-oops-concept-interview-questions-answers-java.html

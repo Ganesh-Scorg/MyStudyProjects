@@ -1,0 +1,223 @@
+LTI Question:
+1. How to create endpoint for your application?
+2. Can we create bean for AbstractClass?
+3. How front controller defined and in which file?
+4. Can JDBCTemplate handle transactions and how?
+5. List features of Java 8 including name of interfaces.
+6. Give example where you need interface in place of Abstract class.
+https://javarevisited.blogspot.com/2012/06/20-design-pattern-and-software-design.html#axzz6jIyk4nCv
+7. Can we use CallableStatement for normal query and PreparedStatement for store procedure.
+8. Complex programing using Java Stream API.
+9. More data structure problems like linked list manipulation.
+10. Design principal:
+https://www.infoworld.com/article/3409071/java-challenger-7-debugging-java-inheritance.html#:~:text=Whereas%20inheritance%20derives%20one%20class,the%20sum%20of%20its%20parts.&text=Because%20loosely%20coupled%20code%20offers,the%20truth%20is%20more%20complex.
+11. can we write main method in interface?
+Yes, we can provide different implementation of main() declared in an interface 
+and classes implementing that interface by overriding method and can overload static main method if defined in an interface.
+12. Can we overload main method in java?
+https://www.geeksforgeeks.org/can-we-overload-or-override-static-methods-in-java/
+13. How substring works in java?
+https://javarevisited.blogspot.com/2011/10/how-substring-in-java-works.html#axzz6jIyk4nCv
+
+Spring Boot:
+1. @Profile in Springboot
+https://dzone.com/articles/spring-boot-profiles-1
+
+2. @Repository in SpringBoot
+https://zetcode.com/springboot/repository/#:~:text=%40Repository%20is%20a%20Spring%20annotation,emulates%20a%20collection%20of%20objects.
+
+3. @Autowired in spring
+https://www.baeldung.com/spring-autowire
+
+4. @PersistenceContext and EntityManager interface 
+https://www.baeldung.com/jpa-hibernate-persistence-context
+https://www.youtube.com/watch?v=V01jjyq7MS8
+https://www.youtube.com/watch?v=otinfgwkMbY
+
+5. Generic ? or T and all?
+https://www.youtube.com/watch?v=XMvznsY02Mk
+
+6. ResponseEntity
+https://www.youtube.com/watch?v=kBRdW7oQ27Y
+
+7. How would you implement pub/sub?
+http://www.code2succeed.com/pub-sub/
+
+8. FOR EACH vs Iterator
+https://stackoverflow.com/questions/22267919/iterator-vs-for
+
+9. Design level interview questions
+https://medium.com/javarevisited/25-software-design-interview-questions-to-crack-any-programming-and-technical-interviews-4b8237942db0
+
+10. Vending Machine design
+https://javarevisited.blogspot.com/2016/06/design-vending-machine-in-java.html#axzz4sZVwtCgs
+
+11. URL shortening
+https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR?affiliate_id=5073518643380224
+
+12. which kind of data structure will you use for a perticular scenario and why
+https://javarevisited.blogspot.com/2017/03/2-practical-data-structure-algorithm-interview-questions-java.html#axzz6k52r5pom
+
+13. PriorityQueue
+https://www.geeksforgeeks.org/priority-queue-class-in-java-2/
+
+14. PriorityQueue Vs TreeSet
+https://javarevisited.blogspot.com/2017/04/difference-between-priorityqueue-and-treeset-in-java.html#axzz6k52r5pom
+
+15. How to know whether we have received file in our remote  directory. 
+16. How to acknowledged the received file. Most of the question were related with file and networking like transfer protocol.
+
+1st round Java Technical First round 
+a) How do u identify memory leaks and how do u solve it. 
+b) How do you take Thread dump in java.
+jcmd, jstack, jconsole, jmc, jvisualvm
+ 
+c) How to remove duplicate value from ArrayList 
+d) What version you use for Java & Weblogic & Database 
+e) Have u used any joins & procedure, do u do query optimizations 2nd round With VP 
+a) How do you track project, project management tool 
+b) About SDLC methodology 
+c) Draw System architecture diagram on which i have worked on 
+d) How to you identify if any project is running out of time and what steps are taken 
+e) How do you handle non performing resource (either he is coming late or not giving output) 
+f) What if some high priority task comes suddenly and how do you have both the stake holders 
+g) What is my role during the software development process (during coding) with the team.
+
+
+
+==== Nisum Round 1 ===
+1. How to detect cycle in linked list
+2. How Link list is internally maintained
+3. How to resolve circular dependency in Spring Beans
+https://www.javaguides.net/2019/01/handle-circular-dependencies-in-spring.html
+4. Bean A has data member as Bean B, Bean A has singleton scope and Bean B has prototype scope. Will Bean A preserve Singleton property.
+5. What is micro front end architecture
+6. Efficient way of writting code on string  Anagram
+7. Can we invoke overloaded main method 
+8. what are new features in java 8.
+9. why functional interfaces
+10. what is predicates 
+11. Ways to create thread and how they communicate
+12. Different between thread and process
+13. how memory managed at thread and process level
+14. what is context switching
+15. Authentication vs Authorization
+16. how to change embeded tomcat from Springboot
+17. Http status for Authentication failure
+18. Difference between ArrayList and LinkList
+19. Things to take care while using custom class as key object in HashMap
+20. what if same hashcode is return for multiple object and we store 10 different objects in HashMap?
+21. Unauthorized request HTTP status code 401.
+
+==== Nisum Round 2 ===
+
+1. Try with resources, interface help
+2. Callable 
+3. HashSet implementation
+4. Spring Security
+5. ManyToMany in hiberate
+6. Second level cache
+7. Java Singleton Vs Spring Sigleton
+8. Ways to create singleton
+9. Lazy initialization
+10. Mockito and PowerMockito
+11. Null pointer exception
+12. Code complexity
+13. Java8 memory management
+14. Java 8 new features
+15. Heavy operation in terms on memory and performance.
+16. File operation
+17. sort using stream and parallel stream
+18. Transaction in micro service
+19. ways to create thread
+20. How threads communicate
+21. Executor service with ThreadPool single vs fixed
+
+===== Altimetrik Round 2 ===
+1. Internal implementation of ArrayList
+2. Why we need spring 
+3. Code to interface 
+4. Tight Coupling Vs Loose coupling. dependency injection in details with example
+5. Why SpringBoot
+6. What is under @SpringBootApplication  all 
+7. Basic git commens including add
+8. Unit testing Vs Functional Testing
+9. Mockito
+10. Strategy design pattern in details
+11. How Stream API internally works
+12. Terminator and Intermediate operations in stream api.
+13. Functional interface (custom + java provided), detailed including in which package it present.
+14. how to sort Integer ArrayList Vs Employee ArrayList
+15. What if we want to store Employe as key in hash map. what things to take care and what happend if we don't.
+16. Cretae two thread, one disp. only odd indexed element of that arry  //2nd threaad disp even index elements.
+17. find out the longest word of a string
+18. Find out the largest prime factor of a number.
+19. Why character array is better than String for Storing password in Java?
+20. Output of below code
+	HashMap<String, String> namesMap = new HashMap<>();
+	namesMap.put("Haribandhu","Sahu");
+	namesMap.put("Haribandhu","Das");
+	namesMap.put(null,null);
+	namesMap.put(null,"Sahu");
+	namesMap.put(null,"Das");
+	System.out.println(namesMap.size());
+	for(Map.Entry<String,String> entry:namesMap.entrySet())
+	{
+		System.out.println(entry.getKey() + "--" + entry.getValue());
+	}
+	
+21. Find list of student having length greater than 5 using stream API
+	 List<String> student = new ArrayList<>();
+	 student.add("Ganesh");
+	 student.stream().filter(s -> s.length()>5).forEach(s -> System.out::print());
+
+===== Altimetrik Round 1 ===
+1. Java 8 features
+2. Functional interface in details
+3. String Anagram program all approach
+4. String Permutation program
+5. char array vs String for password
+
+===== Altimetrik Paypal =====
+1. Blocking Queue 
+2.  Given someone's favorite songs (as a map) and a genre category (as a map as well). Find out this person's most favorite genre. For example,
+
+"John": ["song1", "song2", "song3", "song4", "song8"],
+"Jyotsna": ["song5", "song6", "song7"]
+
+and
+
+"Rock": ["song1", "song3"],
+"Dubstep": ["song7"],
+"Techno": ["song2", "song4"],
+"Pop": ["song5", "song6"],
+"Jazz": ["song8", "song9"]
+
+3. 	A string s comprised of digits from 0 to 9 contains a perfect substring if all the elements within a substring occur exactly k times. 
+	Calculate the number of perfect substrings in s.
+
+	Example
+	s = 1102021222
+	k = 2
+	The 6 perfect substrings are:
+	s[0:1] = 11
+	s[0:5] = 110202
+	s[1:6] = 102021
+	s[2:5] = 0202
+	s[7:8] = 22
+	s[8:9] = 22
+	
+	
+4. Find the first N words with the highest frequency in an array of strings. The result needs to be
+  sorted by frequency.
+  
+  For example:
+  
+  An array of String:
+  
+  Inputs:
+  
+  {"Believe", "for", "good", "Believe", "for", "trust", "Believe", "forsake", "Believe", "Believe",
+  "in", "you", "youtube", "Google", "for", "learning", "virtual", "data"}
+  
+  and the first 2 words with the highest frequency.

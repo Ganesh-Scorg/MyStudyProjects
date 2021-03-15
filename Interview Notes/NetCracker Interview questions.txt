@@ -1,0 +1,190 @@
+class SomeClass {
+
+	public static void main (){
+           SomeClass someClass = new SomeClass();
+           someClass.foo(10,15);   //25
+		    someClass.foo((short)10,(short)15); //150
+			 someClass.foo((byte)10,(byte)15);   //-5
+	}
+	void foo(short a,short b){
+	    sysout a*b;
+	}
+	void foo(int a,int b){
+	    sysout a+b;
+	}
+	void foo(byte a,byte b){
+	    sysout a-b;
+	}
+}
+----------------
+List<Object> listAl=new ArrayList<> ();
+List<Object> listV=new Vector<> ();
+Queue<Integer> queue = new LinkedList<>();
+
+----
+Collection<T> colAl=new ArrayList<> ();
+Collection<T> colLl=new LinkedList<> ();
+colAl.add(10);
+foo(new ArrayList<> ());
+foo(new LinkedList<> ());
+
+public void foo(Collection<T> col)
+{
+	col.add()
+}
+
+jconnect gaurav
+
+
+---------
+Collection<Integer> col = new ArrayList<>();
+col.add(1);
+col.add(2);
+col.add(3);
+
+Queue<Integer> dq = new ArrayDeque<Integer>();
+dq.add(1);
+dq.add(2);
+
+col.addAll(dq);
+
+if (col.containsAll(dq)) {
+    System.out.println("Valid" + col);
+} else {
+    System.out.println("Not Valid" + dq);
+}
+
+---------
+public static void main(){
+List list=new ArrayList();
+list.add("first");
+list.add("second");
+method(list);
+System.out.println(list);
+}
+public static void method(List list){
+    list=new ArrayList();
+    list.add("third");
+}
+--------------------------
+
+Collection c = new TreeSet<>();
+c.add(new Employee());
+
+
+-------------------------
+
+* Write a method to decide if two strings are anagrams or not
+
+
+isAnagram(String str1, String str2)
+{
+	HashMap<Character, Integer> ht = new HashMap<>();
+	
+	str1
+	ht.contains(key)
+	
+	ht.put()
+	
+	str2 
+	ht.
+	ht.remove()
+	
+	ht.empty()
+	
+
+}
+
+
+isAnagram()
+{
+	int [] charArray = new int[26];
+
+	str1.upperCase()
+	
+index	str1.charAt(i) -  65 => 0 to 25, -97
+
+charArray[index] = count;
+
+	str1.upperCase()
+str2
+	charArray[index] = decrement;
+}
+
+===============
+
+<bean id="mainJobService" class="com.netcracker.impl.services.MainJobService"/>
+ 
+<bean id="serviceBase" abstract="true" class="com.netcracker.impl.services.ServiceBase">
+	<property name="mainJobService" ref="mainJobService"/>
+</bean> 
+ 
+<bean id="mainService" parent="serviceBase" class="com.netcracker.impl.services.MainService">
+	<property name="mainJobService" ref="mainJobService"/>
+</bean>
+
+
+
+
+class MainJobService
+{
+}
+
+Abstract class ServiceBase
+{
+  @Autowired
+  MainJobService  mainJobService;
+  
+  setter(MainJobService mainJobService )
+  {}
+}
+
+class MainService extends ServiceBase
+{
+  MainJobService  mainJobService;
+}
+
+
+--------------------------
+
+select dep_name, count(employee.id) as emp_count from employee right outter join departmet on employee.dept_id = department.id group by department.name
+
+
+------
+Jax 
+
+New Year task. Need to draw a tree using stars (*), assuming, that height can specified dynamically
+
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

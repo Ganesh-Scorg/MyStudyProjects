@@ -1,0 +1,292 @@
+http://collabedit.com/fc5qf
+
+class Array{
+    int arr[];//100 elements
+    }
+    
+
+    main(){
+    
+    Array arr = new Array();
+    //cretae two thread, one disp. only odd indexed element of that arry
+    //2nd threaad disp even index elements.
+    h.shsghhghs.........
+    find out the longest word of a string
+    Ram is a good boy. 
+    good
+    
+    String str = "Ram is good boy";
+    
+    String strarr [] = str.split(" ");
+    
+    int longestword=strarr[0].length;
+    int indexformaxword=0;
+    
+    for(int i = 1; i<strarr.length; i++)
+    {
+        if(longestword < strarr[i].length())
+        {
+        longestword  = strarr[i].length();
+        indexformaxword = i;
+        }
+    }
+    
+    return strarr[indexformaxword ];
+    
+    Find out the largest prime factor of a number.
+    15 - 1 3 5 15
+    o/p:5
+    
+    18  9 7 5 3
+    
+    int num = 18;
+    
+    
+    17 
+    
+    if(isPrime(num))
+    return num;
+    
+    int largestprimefactor = 1;
+    
+    for(int i = num/2; i>1; i--)
+    {
+        if(num%i ==0 && isPrime(i) )
+        {
+            largestprimefactor  = i;
+            break;
+        }
+    }
+     
+     if(largestprimefactor == 1)
+     {
+         return num;
+     }
+     
+     return largestprimefactor ;
+    
+    
+    boolean isPrime(int num)
+    {
+        for(int i = 0; i <num/2; i++)
+        {
+            if(num%i==0)
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    
+    }
+    
+    class Employe
+    {
+        int id;
+        String name;
+        
+        public int hashcode()
+        {
+            return id;
+        }
+        
+        public boolean equals(Employee e)
+        {
+            if(this == e)
+            return true;
+            
+            if(this.id == e.id && this.name.equals(e.name))
+            return true;
+            
+            return false;
+        }
+        
+    }
+    
+    List<Employee> list
+    HashSet<Employe> hashset = new HashSet<>(list);
+    ............
+    Why character array is better thanString for Storing password in Java?
+    ...............
+    8.  HashMap<String, String> namesMap = new HashMap<>();
+namesMap.put("Haribandhu","Sahu");
+namesMap.put("Haribandhu","Das");
+namesMap.put(null,null);
+namesMap.put(null,"Sahu");
+namesMap.put(null,"Das");
+System.out.println(namesMap.size());
+for(Map.Entry<String,String> entry:namesMap.entrySet())
+    System.out.println(entry.getKey() + "--" + entry.getValue());
+
+.
+ List<String> student = new ArrayList<>();
+ student.add("Ganesh");
+ 
+ student.stream().filter(s -> s.length()>5).forEach(s -> System.out::print());
+ 
+ 
+ // package whatever; // don't place package name!
+
+import java.io.*;
+
+public class Sample {
+
+	private Map<Person, String> hashMap = new HashMap<>();
+
+	public static void main(String[] args) {
+		Sample sample = new Sample();
+		sample.createMap();
+		long id = 1;
+		String name="Ram";
+		int age = 35;
+		String sex= "Male";
+    
+    hashmap.get(new Person(ddd));
+				
+	}
+
+	private void createMap() {
+		hashMap.put(new Person(1l,"Ram", 35, "Male"), "Working At PayPal As Developer");
+		hashMap.put(new Person(2l,"Siva", 45, "Male"), "Working At PayPal As Manager");
+	}
+
+}
+
+class Person {
+	long id;
+	String name;
+	int age;
+	String sex;
+
+	public Person(long id, String name, int age, String sex) {
+		super(); 
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+	//getters and setters
+	
+  hashcode
+  equals
+
+}
+
+interface MyInterface
+{
+  void printSomething(String msg);
+}
+
+
+
+
+main()
+{
+  
+  MyInterface im = new MyInterface(){
+    
+    printSomething(String msg)
+    {
+      Sysout()
+      
+    }
+  }
+  im.printSomething()
+  
+  
+  MyInterface im  = (msg) -> Sysout(msg);
+  
+  im.printSomething();
+  
+  stream().filter, map , collect, sort
+  
+  System.out::println;
+  
+  
+  I -> m1
+  
+  
+  A B C
+  
+  Context
+  
+  {
+    context(I i)
+    {
+      i.m1()
+    }
+  }
+  
+  
+  context(new A());
+  
+  Inter
+  {
+    
+  }
+  
+  
+  class Cat implements Inter
+  {
+    
+  }
+  
+  Dog
+  
+  C
+  Class Zoo{
+    
+    private Inter cat;
+    
+    Zoo(Inter c)
+    {
+      cat = c;
+    }
+     
+    
+    cat.eat();
+    
+  }
+  
+}
+
+@SpringBootApplication
+
+
+m1(
+  
+  m2()
+  
+  -----
+  
+  m3()
+    
+)
+
+m2, m3, 
+
+git clone
+
+commit
+
+pull
+
+push
+
+https://codeinterview.io/SMQFEQEDWK
+
+EL Durai
+
+
+
+
+
+
+
+
+
+
+
+
+
+

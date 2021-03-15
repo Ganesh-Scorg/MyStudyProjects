@@ -1,0 +1,58 @@
+Collection<int> findUnique(final Collection<int> data){
+      return null;
+   }
+ 
+Sample input: [1, 2, 4, 1, 45, 3, 2]
+Sample output: [1, 2, 4, 45, 3]
+From Konstantin Larionov to Everyone:  07:04 PM
+Collection<int> findUnique(final Collection<int> data){
+      return null;
+   }
+ 
+Sample input: [1, 2, 4, 1, 45, 3, 2]
+Sample output: [1, 2, 4, 45, 3]
+From Konstantin Larionov to Everyone:  07:16 PM
+Given a sorted (increasing order) array, write an algorithm to create a binary tree with minimal height.
+[1 2 3 4 5 6 7 8 9 10]
+From Konstantin Larionov to Everyone:  07:25 PM
+public class test{
+    public static void main(String... args) throws Exception{
+        final Object lock = new Object();
+ 
+        Thread firstThread = new Thread (new Runnable(){
+            public void run(){
+                synchronized(lock){
+                    System.out.println("1");
+                    try{
+                        lock.wait();
+                    }catch(InterruptedException e){
+                        System.out.println("2");
+                    }
+                    System.out.println("3");
+                }
+            }
+        });
+ 
+        firstThread.start();
+        //assumption: after this line all threads in RUNNABLE state
+        Thread.sleep(30000L);
+ 
+        synchronized(lock){
+            System.out.println("4");
+            lock.notify();
+            System.out.println("5");
+        }
+    }
+}
+From Konstantin Larionov to Everyone:  07:32 PM
+New Year task. Need to draw a tree using stars (*), assuming, that height can specified dynamically
+
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
