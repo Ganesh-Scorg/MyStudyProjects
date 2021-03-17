@@ -30,7 +30,7 @@ jococo test report
 --
 Actuator
 Profile
-
+https://www.cars24.com/blog/hystrix-how-to-handle-cascading-failures-in-microservices/
 ---
 Opus discussion
 
