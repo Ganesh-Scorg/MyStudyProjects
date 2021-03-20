@@ -221,3 +221,23 @@ and
   "in", "you", "youtube", "Google", "for", "learning", "virtual", "data"}
   
   and the first 2 words with the highest frequency.
+
+
+====Persistent Round 1 ===
+1. Spring Bean life cycle
+2. Spring bean scope
+3. Difference between @PathVaribale and @RequestParameter
+4. How OneToMany work in detailed for hibernate
+5. what is immutability and how to achieve it
+6. Builder design pattern and Strategy Design pattern
+7. map vs flatmap in stream
+8. how map method work in stream
+9. internal working of hashmap in detailed
+10. can we do write operation in concorrenthashmap using 2 different thread
+11. CountDownLatch Vs Cyclic Barrier
+12. How wait, notify and notify to be used and why those are in object class
+13. how you invoke REST API from postman
+14. can we use additional columns while using group by clause
+15. Basic git commands
+16. Basic maven commands
+
