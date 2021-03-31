@@ -112,6 +112,7 @@ https://www.javaguides.net/2019/01/handle-circular-dependencies-in-spring.html
 ==== Nisum Round 2 ===
 
 1. Try with resources, interface help
+https://www.geeksforgeeks.org/automatic-resource-management-java/
 2. Callable 
 3. HashSet implementation
 4. Spring Security
@@ -226,8 +227,10 @@ and
 ====Persistent Round 1 ===
 1. Spring Bean life cycle
 2. Spring bean scope
-3. Difference between @PathVaribale and @RequestParameter
+3. Difference between @PathVaribale and @RequestParam
+https://www.baeldung.com/spring-pathvariable
 4. How OneToMany work in detailed for hibernate
+https://howtodoinjava.com/hibernate/hibernate-one-to-many-mapping/
 5. what is immutability and how to achieve it
 6. Builder design pattern and Strategy Design pattern
 7. map vs flatmap in stream
@@ -240,4 +243,7 @@ and
 14. can we use additional columns while using group by clause
 15. Basic git commands
 16. Basic maven commands
-
+17. class Loader
+18. Convert List to Map using stream
+https://javarevisited.blogspot.com/2016/04/10-examples-of-converting-list-to-map.html#axzz6pviZ0UJe
+19. 
