@@ -107,6 +107,7 @@ class Array{
     HashSet<Employe> hashset = new HashSet<>(list);
     ............
     Why character array is better thanString for Storing password in Java?
+	https://www.geeksforgeeks.org/use-char-array-string-storing-passwords-java/
     ...............
     8.  HashMap<String, String> namesMap = new HashMap<>();
 namesMap.put("Haribandhu","Sahu");
